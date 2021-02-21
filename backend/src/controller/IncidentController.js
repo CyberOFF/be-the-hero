@@ -18,7 +18,7 @@ module.exports = {
         "ongs.whatsapp",
         "ongs.city",
         "ongs.uf",
-      ]);//Retornar todos os dados dos incidentes || Retornar dados especificos da tabela ong
+      ]); //Retornar todos os dados dos incidentes || Retornar dados especificos da tabela ong
 
     res.header("X-Total-Counts", count["count(*)"]);
 
