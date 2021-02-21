@@ -1,5 +1,5 @@
 import React from "react";
-import {useState} from 'react'
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 import logoImg from "../../assets/logo.svg";
@@ -28,7 +28,7 @@ export default function register() {
     //enviar o data para a api
 
     try {
-      const response = await api.post('ongs', data);
+      const response = await api.post("ongs", data);
 
       alert(`Seu ID de Acesso:  ${response.data.id}`);
     } catch (err) {
