@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 import logoImg from "../../assets/logo.svg";
@@ -32,7 +31,7 @@ export default function register() {
 
       alert(`Seu ID de Acesso:  ${response.data.id}`);
     } catch (err) {
-      alert("Cadastro Não efetuado, Verifique os Campos e Tente Novamente.");
+      alert("Cadastro Não Efetuado, Verifique os Campos e Tente Novamente.");
     }
   }
 
